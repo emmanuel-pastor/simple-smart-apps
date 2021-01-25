@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4rem;
+    row-gap: 1rem;
+
+    min-height: 5rem;
+    width: 100%;
+
+    padding: 0 var(--side-padding);
+
+    background: white;
+
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.navbar__branding {
+    flex-grow: 1;
+}
+
+.navbar__branding > img {
+    max-height: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+
+        padding: 1rem var(--side-padding);
+    }
+}
