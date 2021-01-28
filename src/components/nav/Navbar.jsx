@@ -1,5 +1,5 @@
 import style from './Navbar.module.css'
-import Branding from '../../assets/images/SSA-branding.svg'
+import Branding from '../../assets/images/shared/SSA_branding.svg'
 import NavbarLink from './NavbarLink'
 import {NavigationPaths} from "../../router/NavigationPaths"
 import {NavLink} from "react-router-dom";
@@ -7,7 +7,6 @@ import {FormattedMessage} from "react-intl";
 
 const navbarLinks = [
     {
-        id: 0,
         name: <FormattedMessage
             id="daoda"
             defaultMessage="Daoda"
@@ -15,7 +14,6 @@ const navbarLinks = [
         paths: [NavigationPaths.DAODA, NavigationPaths.ROOT] // First path is main, others are extra
     },
     {
-        id: 1,
         name: <FormattedMessage
             id="battery_temp"
             defaultMessage="Battery Temperature"
@@ -31,8 +29,8 @@ const Navbar = () => {
                 <img src={Branding} alt={'Simple Smart Apps logo'}/>
             </NavLink>
 
-            {navbarLinks.map(link => (
-                <NavbarLink key={link.id} {...link}/>
+            {navbarLinks.map((link, index) => (
+                <NavbarLink key={index} {...link}/>
             ))}
         </nav>
     )
