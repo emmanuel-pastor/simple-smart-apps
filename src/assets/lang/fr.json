@@ -2,5 +2,7 @@
   "battery_temp": "Température de la batterie",
   "daoda": "Daoda",
   "battery_temp_description": "Gardez un œil sur la température de la batterie.\nRecevez une notification quand la température de la batterie est trop chaude.\nLa température est disponible à la fois en Celsius et en Fahrenheit !\nGarder la température de la batterie à un niveau raisonnable ralonge la durée de vie de la batterie.",
-  "daoda_description": "Prévenez automatiquement vos amis et vos proches que vous êtes bien arrivé à une destination.\nChoisissez une liste de contacts et un message, l'appli s'occupe du reste.\nElle permet d'assurer à tout le monde que vous allez bien et leur évite de s'inquiéter."
+  "daoda_description": "Prévenez automatiquement vos amis et vos proches que vous êtes bien arrivé à une destination.\nChoisissez une liste de contacts et un message, l'appli s'occupe du reste.\nElle permet d'assurer à tout le monde que vous allez bien et leur évite de s'inquiéter.",
+  "downloads": "téléchargements",
+  "no_downloads": "Aucun téléchargement"
 }
