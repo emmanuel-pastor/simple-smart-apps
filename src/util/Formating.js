@@ -1,9 +1,13 @@
 export function abbreviateNumber(value) {
-    const suffixes = ["", "K", "M", "B","Trillion"];
-    const suffixNum = Math.ceil((""+value).length/3)-1;
-    let shortValue = parseFloat((suffixNum !== 0 ? (value / Math.pow(1000,suffixNum)) : value).toPrecision(3));
+    const suffixes = ["", "K+", "M+", "B+", "Trillion+"];
+
+    const roundedValue = value >= 1000 ? value - (value % 1000) : value
+
+    const suffixNum = Math.ceil((""+roundedValue).length/3)-1;
+    let shortValue = parseFloat((suffixNum !== 0 ? (roundedValue / Math.pow(1000,suffixNum)) : roundedValue).toPrecision(3));
     if (shortValue % 1 !== 0) {
-        shortValue = shortValue.toFixed(1);
+        shortValue = shortValue.toFixed(0);
     }
-    return shortValue+suffixes[suffixNum]+'+';
+
+    return {number: roundedValue, string: shortValue + suffixes[suffixNum]};
 }

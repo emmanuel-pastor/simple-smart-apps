@@ -5,21 +5,21 @@ import style from "./Headline.module.css";
 import {abbreviateNumber} from "../../../util/Formating";
 
 const Headline = ({app_icon, app_title, install_count}) => {
+    const {number: formattedInstallCountNumber, string: formattedInstallCountString} = abbreviateNumber(install_count)
+
     return (
         <div className={style.headline}>
             <div className={style.headline__iconWrapper}><img src={app_icon} alt="App Icon"/></div>
-            <div >
+            <div>
                 <h1>{app_title}</h1>
-                <p>{install_count !== 0 ?
-                    <>{abbreviateNumber(install_count)} <FormattedMessage
-                        id="downloads"
-                        defaultMessage="downloads"
-                    /></>
-                    :
+                <p>
+                    {install_count !== 0 ? formattedInstallCountString : ''}
                     <FormattedMessage
-                        id="no_downloads"
-                        defaultMessage="No downloads"
-                    />}</p>
+                        id="download_count"
+                        defaultMessage="{count,plural,=0{No downloads} one{ download} other{ downloads}}"
+                        values={{count: formattedInstallCountNumber}}
+                    />
+                </p>
             </div>
         </div>
     )
