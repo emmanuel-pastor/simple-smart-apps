@@ -3,10 +3,10 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    column-gap: 4rem;
-    row-gap: 1rem;
+    column-gap: 64px;
+    row-gap: 16px;
 
-    min-height: 5rem;
+    min-height: 80px;
     width: 100%;
 
     padding: 0 var(--side-padding);
@@ -21,13 +21,13 @@ nav {
 }
 
 .navbar__branding > img {
-    max-height: 2rem;
+    max-height: 32px;
 }
 
 @media only screen and (max-width: 800px) {
     nav {
         flex-direction: column;
 
-        padding: 1rem var(--side-padding);
+        padding: 16px var(--side-padding);
     }
 }

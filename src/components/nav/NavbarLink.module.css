@@ -1,17 +1,17 @@
 .navbarLink {
-    --indicatorHeight: 0.2rem;
+    --indicatorHeight: 4px;
 }
 
 li {
-    padding: calc(0.4rem + var(--indicatorHeight)) 0 0.4rem 0;
-    font-size: larger;
+    padding: calc(7px + var(--indicatorHeight)) 0 7px 0;
+    font-size: var(--fs-large);
     font-weight: 600;
 
     list-style: none;
 }
 
 a {
-    color: #a0a0a0;
+    color: var(--color-disabled);
 }
 
 a.active {
@@ -21,7 +21,7 @@ a.active {
 .navbarLink__activeIndicator {
     height: var(--indicatorHeight);
 
-    border-radius: 1rem;
+    border-radius: 16px;
 
     background-image: var(--color-primary-gradient);
 }
