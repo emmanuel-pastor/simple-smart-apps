@@ -28,7 +28,7 @@ const DownloadButtons = ({playLink, apkLink}) => {
     )
 }
 
-NavbarLink.protoTypes = {
+NavbarLink.propTypes = {
     playLink: PropTypes.string,
     apkLink: PropTypes.string.isRequired
 }

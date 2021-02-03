@@ -25,7 +25,7 @@ const Headline = ({app_icon, app_title, install_count}) => {
     )
 }
 
-NavbarLink.protoTypes = {
+NavbarLink.propTypes = {
     app_icon: PropTypes.string.isRequired,
     app_title: PropTypes.string.isRequired,
     download_count: PropTypes.number.isRequired
