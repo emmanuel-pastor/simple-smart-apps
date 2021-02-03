@@ -5,5 +5,7 @@
   "daoda_description": "Inform your friends and relatives when you arrived safely to a location.\nChoose a location a contacts list and a message, the app does the rest for you.\nIt ensures everyone that you are safe and keeps them from being anxious.",
   "downloads": "downloads",
   "no_downloads": "No downloads",
-  "download_count": "{count,plural,=0{No downloads} one{ download} other{ downloads}}"
+  "download_count": "{count,plural,=0{No downloads} one{ download} other{ downloads}}",
+  "download_apk": "Download APK",
+  "play_badge_path": "https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
 }

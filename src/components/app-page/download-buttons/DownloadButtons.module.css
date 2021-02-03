@@ -1,0 +1,40 @@
+.downloadButtons__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.downloadButtons__wrapper > a {
+    width: auto;
+    height: calc(1vw + 36px);
+
+    border-radius: var(--main-corner-radius);
+
+    filter: var(--main-shadow);
+}
+
+.downloadButtons__button_play > img {
+    width: inherit;
+    height: inherit;
+}
+
+.downloadButtons__button_apk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 13px;
+
+    padding: 0 13px;
+    font-size: var(--fs-medium);
+    font-weight: 600;
+    text-align: center;
+
+    color: white;
+    background-image: var(--color-primary-gradient);
+}
+
+.downloadButtons__button_apk > img {
+    width: auto;
+    height: 63%;
+}

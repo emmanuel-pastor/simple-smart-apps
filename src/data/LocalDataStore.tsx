@@ -27,8 +27,8 @@ The temperature is available both in Celsius and Fahrenheit !
 Keeping your battery temperature at a reasonable level expands the lifetime of your battery."
         />,
         download_links: {
-            play_store: "https://play.google.com/store/apps/details?id=com.simplesmartapps.emmanuelpastor.batterytemperature",
-            apk: "."
+            play_store: "https://play.google.com/store/apps/details?id=com.simplesmartapps.emmanuelpastor.batterytemperature&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
+            apk: "https://cutt.ly/battery_temp-apk"
         },
         images: batteryTempImages,
         stats: {
@@ -58,7 +58,7 @@ It ensures everyone that you are safe and keeps them from being anxious."
         />,
         download_links: {
             play_store: undefined,
-            apk: "."
+            apk: "https://cutt.ly/daoda_apk"
         },
         images: daodaImages,
         stats: {

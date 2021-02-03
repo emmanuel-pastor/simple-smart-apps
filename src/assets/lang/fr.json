@@ -5,5 +5,7 @@
   "daoda_description": "Prévenez automatiquement vos amis et vos proches que vous êtes bien arrivé à une destination.\nChoisissez une liste de contacts et un message, l'appli s'occupe du reste.\nElle permet d'assurer à tout le monde que vous allez bien et leur évite de s'inquiéter.",
   "downloads": "téléchargements",
   "no_downloads": "Aucun téléchargement",
-  "download_count": "{count, plural, =0 {Aucun téléchargement} one { téléchargement} other { téléchargements}}"
+  "download_count": "{count, plural, =0 {Aucun téléchargement} one { téléchargement} other { téléchargements}}",
+  "download_apk": "Télécharger l'APK",
+  "play_badge_path": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Google_Play_Store_badge_FR.svg"
 }
