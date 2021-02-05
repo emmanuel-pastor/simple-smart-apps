@@ -5,3 +5,10 @@
 
     padding: 16px var(--side-padding);
 }
+
+.appPage__topSection {
+    display: grid;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 40px;
+}

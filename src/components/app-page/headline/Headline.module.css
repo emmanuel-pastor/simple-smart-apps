@@ -1,7 +1,11 @@
 .headline {
+    grid-column: 1;
+    grid-row: 1;
     display: flex;
     align-items: center;
     column-gap: calc(1.5vw + 10px);
+
+    min-width: 70%;
 
     --icon-size: calc(2vw + 56px);
 }

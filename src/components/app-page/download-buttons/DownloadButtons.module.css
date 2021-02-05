@@ -1,4 +1,6 @@
 .downloadButtons__wrapper {
+    grid-column: 1;
+    grid-row: 2;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,4 +39,11 @@
 .downloadButtons__button_apk > img {
     width: auto;
     height: 63%;
+}
+
+@media only screen and (max-width: 800px) {
+    .downloadButtons__wrapper {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
 }
