@@ -6,9 +6,33 @@
     padding: 16px var(--side-padding);
 }
 
+.appPage__mainContent {
+    display: flex;
+    column-gap: 20px;
+}
+
+.appPage__mainScreenshot {
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    align-self: center;
+
+    height: 100%;
+}
+
+.appPage__mainScreenshot > img{
+    width: auto;
+    height: 56.25vh;
+
+    margin: auto;
+}
+
 .appPage__topSection {
+    flex-grow: 7;
     display: grid;
     align-items: center;
     column-gap: 15px;
     row-gap: 40px;
+
+    height: max-content;
 }
