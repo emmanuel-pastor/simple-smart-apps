@@ -1,0 +1,17 @@
+.statsItem {
+    text-align: center;
+}
+
+.statsItem > p {
+    margin-block: 0 5px;
+}
+
+.statsItem__title {
+    font-size: var(--fs-large);
+    font-weight: 600;
+}
+
+.statsItem__value {
+    font-size: var(--fs-small);
+    font-weight: 300;
+}

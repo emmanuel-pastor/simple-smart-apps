@@ -1,0 +1,20 @@
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: calc(3.333vw + 36px);
+    column-gap: 5px;
+
+    width: 100%;
+    padding: 20px 5px;
+
+    border-radius: var(--main-corner-radius);
+    background-color: #F7F7F7;
+}
+
+@media only screen and (max-width: 500px) {
+    .stats {
+        grid-template-columns: 1fr 1fr;
+    }
+}

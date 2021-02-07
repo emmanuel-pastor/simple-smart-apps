@@ -4,6 +4,8 @@
     row-gap: var(--vertical-spacing);
 
     padding: 16px var(--side-padding);
+
+    --vertical-spacing: 4.2vh;
 }
 
 .appPage__mainContent {
@@ -37,8 +39,6 @@
     display: flex;
     flex-direction: column;
     row-gap: var(--vertical-spacing);
-
-    --vertical-spacing: 4.2vh;
 }
 
 .appPage__RightColumn > p{

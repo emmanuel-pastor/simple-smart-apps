@@ -7,6 +7,7 @@ import DownloadButtons from "./download-buttons/DownloadButtons";
 import Rating from "./rating/Rating";
 import useWindowDimensions from "../../util/WindowDimensionHook";
 import ScreenshotsSlider from "./screenshots-slider/ScreenshotsSlider";
+import Stats from "./stats/Stats";
 
 const AppPage = () => {
     const {pageState, appInfo} = useContext(AppPageContext);
@@ -32,6 +33,7 @@ const AppPage = () => {
                             <ScreenshotsSlider screenshots={appInfo.images.screenshot_paths}/>
                         </div>
                     </div>
+                    <Stats stats={appInfo.stats}/>
                 </div>
             )
         default:
