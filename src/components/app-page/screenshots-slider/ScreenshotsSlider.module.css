@@ -1,0 +1,16 @@
+.screenshotsSlider {
+    overflow: auto;
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+
+    max-width: calc(100vw - var(--side-padding)*2);
+}
+
+.screenshotsSlider > img {
+    width: auto;
+    height: var(--screenshots_height);
+
+    border-radius: var(--main-corner-radius);
+}

@@ -8,7 +8,9 @@
 
 .appPage__mainContent {
     display: flex;
-    column-gap: 20px;
+    column-gap: 40px;
+
+    --screenshots_height: calc(7.604vw + 276px)
 }
 
 .appPage__mainScreenshot {
@@ -23,11 +25,14 @@
 .appPage__mainScreenshot > img{
     width: auto;
     height: 56.25vh;
+    min-height: calc(var(--screenshots_height)*1.3);
 
     margin: auto;
 }
 
 .appPage__RightColumn {
+    overflow: auto;
+
     flex-grow: 7;
     display: flex;
     flex-direction: column;
