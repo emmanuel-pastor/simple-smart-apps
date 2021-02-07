@@ -15,7 +15,7 @@ const NavbarLink = ({name, paths}) => {
     )
 }
 
-NavbarLink.protoTypes = {
+NavbarLink.propTypes = {
     name: PropTypes.string.isRequired,
     paths: PropTypes.arrayOf(PropTypes.string).isRequired
 }
