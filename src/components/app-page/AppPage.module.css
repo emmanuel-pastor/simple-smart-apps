@@ -1,7 +1,7 @@
 .appPage__mainWrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: var(--vertical-spacing);
 
     padding: 16px var(--side-padding);
 }
@@ -27,12 +27,26 @@
     margin: auto;
 }
 
-.appPage__topSection {
+.appPage__RightColumn {
     flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--vertical-spacing);
+
+    --vertical-spacing: 4.2vh;
+}
+
+.appPage__RightColumn > p{
+    margin-block: 0;
+    font-size: var(--fs-medium);
+    white-space: pre-wrap;
+}
+
+.appPage__topSection {
     display: grid;
     align-items: center;
     column-gap: 15px;
-    row-gap: 40px;
+    row-gap: var(--vertical-spacing);
 
     height: max-content;
 }
