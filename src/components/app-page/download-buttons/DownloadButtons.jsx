@@ -9,7 +9,7 @@ const DownloadButtons = ({playLink, apkLink}) => {
 
     return (
         <div className={style.downloadButtons__wrapper}>
-            {playLink && <a href={playLink} className={style.downloadButtons__button_play}>
+            {playLink && <a href={playLink} className={style.downloadButtons__button_play} target={'_blank'} rel={'noopener noreferrer'}>
                 <img alt='Get it on Google Play' src={intl.formatMessage(
                     {
                         id: 'play_badge_path',

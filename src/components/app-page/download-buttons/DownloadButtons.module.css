@@ -16,6 +16,10 @@
     filter: var(--main-shadow);
 }
 
+.downloadButtons__wrapper > a:hover {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
 .downloadButtons__button_play > img {
     width: inherit;
     height: inherit;
