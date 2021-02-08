@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/simple-smart-apps/static/css/main.23900553.chunk.css",
+    "main.js": "/simple-smart-apps/static/js/main.484e9b9f.chunk.js",
+    "main.js.map": "/simple-smart-apps/static/js/main.484e9b9f.chunk.js.map",
+    "runtime-main.js": "/simple-smart-apps/static/js/runtime-main.3eb5d62c.js",
+    "runtime-main.js.map": "/simple-smart-apps/static/js/runtime-main.3eb5d62c.js.map",
+    "static/js/2.6ef5e53d.chunk.js": "/simple-smart-apps/static/js/2.6ef5e53d.chunk.js",
+    "static/js/2.6ef5e53d.chunk.js.map": "/simple-smart-apps/static/js/2.6ef5e53d.chunk.js.map",
+    "static/js/3.8a2aad9a.chunk.js": "/simple-smart-apps/static/js/3.8a2aad9a.chunk.js",
+    "static/js/3.8a2aad9a.chunk.js.map": "/simple-smart-apps/static/js/3.8a2aad9a.chunk.js.map",
+    "index.html": "/simple-smart-apps/index.html",
+    "static/css/main.23900553.chunk.css.map": "/simple-smart-apps/static/css/main.23900553.chunk.css.map",
+    "static/js/2.6ef5e53d.chunk.js.LICENSE.txt": "/simple-smart-apps/static/js/2.6ef5e53d.chunk.js.LICENSE.txt",
+    "static/media/1_screen.163a2662.png": "/simple-smart-apps/static/media/1_screen.163a2662.png",
+    "static/media/1_screen.a72c2f1e.png": "/simple-smart-apps/static/media/1_screen.a72c2f1e.png",
+    "static/media/2_screen.d1e195a9.png": "/simple-smart-apps/static/media/2_screen.d1e195a9.png",
+    "static/media/2_screen.dae6ef12.png": "/simple-smart-apps/static/media/2_screen.dae6ef12.png",
+    "static/media/3_screen.ee726121.png": "/simple-smart-apps/static/media/3_screen.ee726121.png",
+    "static/media/3_screen.ef3a453a.png": "/simple-smart-apps/static/media/3_screen.ef3a453a.png",
+    "static/media/4_screen.22a7814d.png": "/simple-smart-apps/static/media/4_screen.22a7814d.png",
+    "static/media/4_screen.f327dd48.png": "/simple-smart-apps/static/media/4_screen.f327dd48.png",
+    "static/media/SSA_branding.d187acb9.svg": "/simple-smart-apps/static/media/SSA_branding.d187acb9.svg",
+    "static/media/arrow.4136fe20.svg": "/simple-smart-apps/static/media/arrow.4136fe20.svg",
+    "static/media/battery_temp_logo.3f8a8c13.svg": "/simple-smart-apps/static/media/battery_temp_logo.3f8a8c13.svg",
+    "static/media/daoda_logo.67a45d9e.svg": "/simple-smart-apps/static/media/daoda_logo.67a45d9e.svg",
+    "static/media/download_icon.7d142da6.svg": "/simple-smart-apps/static/media/download_icon.7d142da6.svg",
+    "static/media/main_screen-c.b124d179.png": "/simple-smart-apps/static/media/main_screen-c.b124d179.png",
+    "static/media/main_screen-f.9c8e94dc.png": "/simple-smart-apps/static/media/main_screen-f.9c8e94dc.png",
+    "static/media/main_screen.a677b637.png": "/simple-smart-apps/static/media/main_screen.a677b637.png",
+    "static/media/main_screen.c94d1e03.png": "/simple-smart-apps/static/media/main_screen.c94d1e03.png",
+    "static/media/main_screen.cef8de92.png": "/simple-smart-apps/static/media/main_screen.cef8de92.png",
+    "static/media/person.f2f7de8a.svg": "/simple-smart-apps/static/media/person.f2f7de8a.svg",
+    "static/media/rating_star-gray.ea1ac5b0.svg": "/simple-smart-apps/static/media/rating_star-gray.ea1ac5b0.svg",
+    "static/media/rating_star.e1777f55.svg": "/simple-smart-apps/static/media/rating_star.e1777f55.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eb5d62c.js",
+    "static/js/2.6ef5e53d.chunk.js",
+    "static/css/main.23900553.chunk.css",
+    "static/js/main.484e9b9f.chunk.js"
+  ]
+}

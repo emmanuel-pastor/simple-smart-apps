@@ -1,0 +1,31 @@
+{
+  "short_name": "Simple Smart Apps",
+  "name": "Simple Smart Apps",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "SSA-logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "SSA-logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "SSA-logo.svg",
+      "type": "image/svg",
+      "sizes": "683x683",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#5990FF",
+  "background_color": "#ffffff"
+}

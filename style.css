@@ -1,0 +1,19 @@
+html, body, #root {
+    min-height: 100vh;
+}
+
+@keyframes glow_animation {
+    to {transform: scale(0.96)}
+}
+
+#loading_logo_wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading_logo_wrapper > img {
+    max-width: 80vw;
+    animation: glow_animation 2s ease-in-out infinite alternate;
+}
