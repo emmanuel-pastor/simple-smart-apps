@@ -1,0 +1,29 @@
+.seeMoreButton {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    column-gap: 5px;
+
+    padding: 0 calc(0.208vw + 14px);
+    border-radius: 100px;
+
+    border: 1px solid black;
+
+    cursor: pointer;
+}
+
+.seeMoreButton:hover {
+    background-color: #F7F7F7;
+}
+
+.seeMoreButton > p {
+    margin-block: 10px;
+    font-size: var(--fs-small);
+    font-weight: 600;
+}
+
+.seeMoreButton > img {
+    width: auto;
+    height: calc(0.468vw + 16px);
+}

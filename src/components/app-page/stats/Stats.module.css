@@ -1,10 +1,17 @@
 .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     row-gap: calc(3.333vw + 36px);
     column-gap: 5px;
+    margin-bottom: var(--vertical-spacing);
 
     width: 100%;
     padding: 20px 5px;
@@ -14,7 +21,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .stats {
+    .stats__grid {
         grid-template-columns: 1fr 1fr;
     }
 }

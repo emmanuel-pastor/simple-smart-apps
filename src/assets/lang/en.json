@@ -15,5 +15,7 @@
   "requires_android": "Requires Android",
   "released": "Released",
   "and_up": " and up",
-  "download_stat": "{count,plural,=0{No downloads} one{#} other{#}}"
+  "download_stat": "{count,plural,=0{No downloads} one{#} other{#}}",
+  "see_more": "See more",
+  "see_less": "See less"
 }
