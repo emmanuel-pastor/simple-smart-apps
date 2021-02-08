@@ -17,7 +17,7 @@ nav {
 }
 
 .navbar__branding {
-    flex-grow: 1;
+    margin-right: auto;
 }
 
 .navbar__branding > img {
@@ -29,5 +29,9 @@ nav {
         flex-direction: column;
 
         padding: 16px var(--side-padding);
+    }
+
+    .navbar__branding {
+        margin-right: 0;
     }
 }
