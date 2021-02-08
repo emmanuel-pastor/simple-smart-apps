@@ -8,7 +8,7 @@ function App() {
 
     return (
         <>
-            <Router basename={'simple-smart-apps'}>
+            <Router>
                 <Navbar/>
                 <Switch>
                     {localStore?.map((appInfo) => (
