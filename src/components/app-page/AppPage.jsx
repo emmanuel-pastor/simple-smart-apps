@@ -21,14 +21,14 @@ const AppPage = () => {
                         {width > 1200 && <div className={style.appPage__mainScreenshot}>
                             <img src={appInfo.images.main_screenshot_path} alt={'Main app screenshot'}/>
                         </div>}
-                        <div className={style.appPage__RightColumn}>
-                            <div className={style.appPage__topSection}>
-                                <Headline app_icon={appInfo.images.app_icon_path} app_title={appInfo.name}
-                                          install_count={appInfo.stats.install_count}/>
-                                <Rating rating={appInfo.stats.rating} review_count={appInfo.stats.review_count}/>
-                                <DownloadButtons playLink={appInfo.download_links.play_store}
-                                                 apkLink={appInfo.download_links.apk}/>
-                            </div>
+                        <div className={style.appPage__topSection}>
+                            <Headline app_icon={appInfo.images.app_icon_path} app_title={appInfo.name}
+                                      install_count={appInfo.stats.install_count}/>
+                            <Rating rating={appInfo.stats.rating} review_count={appInfo.stats.review_count}/>
+                            <DownloadButtons playLink={appInfo.download_links.play_store}
+                                             apkLink={appInfo.download_links.apk}/>
+                        </div>
+                        <div className={style.appPage__MiddleSection}>
                             <p>{appInfo.description}</p>
                             <ScreenshotsSlider screenshots={appInfo.images.screenshot_paths}/>
                         </div>

@@ -9,19 +9,24 @@
 }
 
 .appPage__mainContent {
-    display: flex;
+    display: grid;
     column-gap: 40px;
+    row-gap: var(--vertical-spacing);
+
+    grid-template-columns: 2.5fr 7.5fr;
+    grid-template-rows: auto auto;
 
     --screenshots_height: calc(7.604vw + 276px)
 }
 
 .appPage__mainScreenshot {
-    flex-grow: 3;
     display: flex;
     align-items: center;
     align-self: center;
-
     height: 100%;
+    grid-column: 1;
+
+    grid-row: 1 / span 2;
 }
 
 .appPage__mainScreenshot > img{
@@ -32,19 +37,20 @@
     margin: auto;
 }
 
-.appPage__RightColumn {
+.appPage__MiddleSection {
     overflow: auto;
 
-    flex-grow: 7;
     display: flex;
     flex-direction: column;
+    grid-column: 2;
+    grid-row: 2;
     row-gap: var(--vertical-spacing);
 }
 
-.appPage__RightColumn > p{
-    margin-block: 0;
+.appPage__MiddleSection > p{
     font-size: var(--fs-medium);
     white-space: pre-wrap;
+    margin-block: 0;
 }
 
 .appPage__topSection {
@@ -54,4 +60,15 @@
     row-gap: var(--vertical-spacing);
 
     height: max-content;
+}
+
+@media only screen and (max-width: 1200px) {
+    .appPage__mainContent {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .appPage__MiddleSection {
+        grid-column: 1;
+    }
 }
