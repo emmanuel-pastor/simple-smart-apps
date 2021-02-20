@@ -8,6 +8,7 @@ import Rating from "./rating/Rating";
 import useWindowDimensions from "../../util/WindowDimensionHook";
 import ScreenshotsSlider from "./screenshots-slider/ScreenshotsSlider";
 import Stats from "./stats/Stats";
+import {fromAppIdToAppName} from "../../util/Converting";
 
 const AppPage = () => {
     const {pageState, appInfo} = useContext(AppPageContext);
@@ -25,7 +26,7 @@ const AppPage = () => {
                             <Headline app_icon={appInfo.images.app_icon_path} app_title={appInfo.name}
                                       install_count={appInfo.stats.install_count}/>
                             <Rating rating={appInfo.stats.rating} review_count={appInfo.stats.review_count}/>
-                            <DownloadButtons playLink={appInfo.download_links.play_store}
+                            <DownloadButtons app_name={fromAppIdToAppName(appInfo.id)} playLink={appInfo.download_links.play_store}
                                              apkLink={appInfo.download_links.apk}/>
                         </div>
                         <div className={style.appPage__MiddleSection}>

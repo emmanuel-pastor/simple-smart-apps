@@ -28,7 +28,7 @@ Keeping your battery temperature at a reasonable level expands the lifetime of y
         />,
         download_links: {
             play_store: "https://play.google.com/store/apps/details?id=com.simplesmartapps.emmanuelpastor.batterytemperature&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-            apk: "https://cutt.ly/battery_temp-apk"
+            apk: "apks/battery_temp-release.apk"
         },
         images: batteryTempImages,
         stats: {
@@ -58,7 +58,7 @@ It ensures everyone that you are safe and keeps them from being anxious."
         />,
         download_links: {
             play_store: undefined,
-            apk: "https://cutt.ly/daoda_apk"
+            apk: "apks/daoda-release.apk"
         },
         images: daodaImages,
         stats: {

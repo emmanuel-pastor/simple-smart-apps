@@ -11,3 +11,12 @@ export function abbreviateNumber(value) {
 
     return {number: roundedValue, string: shortValue + suffixes[suffixNum]};
 }
+
+//Formats any string into snake case
+export function toSnakeCase(str) {
+        return str &&
+        str
+            .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+            .map(x => x.toLowerCase())
+            .join('_');
+}
