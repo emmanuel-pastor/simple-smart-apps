@@ -25,7 +25,7 @@ const AppPage = () => {
                         <div className={style.appPage__topSection}>
                             <Headline app_icon={appInfo.images.app_icon_path} app_title={appInfo.name}
                                       install_count={appInfo.stats.install_count}/>
-                            <Rating rating={appInfo.stats.rating} review_count={appInfo.stats.review_count}/>
+                            <Rating rating={appInfo.stats.rating} review_count={appInfo.stats.review_count} review_link={appInfo.review_link}/>
                             <DownloadButtons app_name={fromAppIdToAppName(appInfo.id)} playLink={appInfo.download_links.play_store}
                                              apkLink={appInfo.download_links.apk}/>
                         </div>

@@ -5,7 +5,7 @@ import PersonIcon from "../../../assets/images/shared/person.svg";
 import RatingStar from "../../../assets/images/shared/rating_star.svg";
 import RatingStarGray from "../../../assets/images/shared/rating_star-gray.svg";
 
-const Rating = ({rating, review_count}) => {
+const Rating = ({rating, review_count, review_link}) => {
     const stars = []
     for (let i = 0; i < 5; i++) {
         if (i < Math.ceil(rating).toFixed(0) - 1) {
@@ -25,7 +25,7 @@ const Rating = ({rating, review_count}) => {
     }
 
     return (
-        <div className={style.ratingWrapper}>
+        <a className={style.ratingWrapper} href={review_link} target={'_blank'} rel={'noopener noreferrer'}>
             <h2>{rating ? rating : '-'}</h2>
             {<div className={style.ratingWrapper__stars}>{stars}</div>}
             <p>
@@ -36,13 +36,14 @@ const Rating = ({rating, review_count}) => {
                     values={{count: review_count}}
                 />
             </p>
-        </div>
+        </a>
     )
 }
 
 Rating.propTypes = {
     rating: PropTypes.number,
-    review_count: PropTypes.number.isRequired
+    review_count: PropTypes.number.isRequired,
+    review_link: PropTypes.string.isRequired
 }
 
 export default Rating;

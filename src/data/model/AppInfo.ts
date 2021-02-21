@@ -5,6 +5,7 @@ export default interface AppInfo{
     navigation_path: string | Array<string>
     name: string | React.ReactElement,
     description: string | React.ReactElement,
+    review_link: string,
     download_links: DownloadLinks,
     images: AppImages,
     stats: AppStats

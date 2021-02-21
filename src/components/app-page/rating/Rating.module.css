@@ -9,6 +9,7 @@
     row-gap: calc(0.3vw + 4px);
 
     text-align: center;
+    color: black;
 }
 
 .ratingWrapper > h2 {

@@ -26,6 +26,7 @@ Receive a notification when your battery temperature is too high.
 The temperature is available both in Celsius and Fahrenheit !
 Keeping your battery temperature at a reasonable level expands the lifetime of your battery."
         />,
+        review_link: "https://forms.gle/RJLVFa4pb3VY8wVt7",
         download_links: {
             play_store: "https://play.google.com/store/apps/details?id=com.simplesmartapps.emmanuelpastor.batterytemperature&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
             apk: "apks/battery_temp-release.apk"
@@ -33,11 +34,11 @@ Keeping your battery temperature at a reasonable level expands the lifetime of y
         images: batteryTempImages,
         stats: {
             rating: 4.6,
-            review_count: 4207,
+            review_count: 4222,
             update_date: '2020-02-18',
             release_date: '2018-01-27',
             apk_size: 2.9,
-            install_count: 348304,
+            install_count: 349209,
             current_version: '1.9.0',
             min_android_version: 5.0
         }
@@ -56,6 +57,7 @@ Keeping your battery temperature at a reasonable level expands the lifetime of y
 Choose a location a contacts list and a message, the app does the rest for you.
 It ensures everyone that you are safe and keeps them from being anxious."
         />,
+        review_link: "https://forms.gle/j8z6FNQELHiwEy338",
         download_links: {
             play_store: undefined,
             apk: "apks/daoda-release.apk"
