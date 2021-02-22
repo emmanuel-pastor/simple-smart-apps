@@ -64,12 +64,12 @@ It ensures everyone that you are safe and keeps them from being anxious."
         },
         images: daodaImages,
         stats: {
-            rating: undefined,
-            review_count: 0,
+            rating: 5,
+            review_count: 1,
             update_date: '2021-02-19',
             release_date: '2020-04-13',
             apk_size: 3.5,
-            install_count: 0,
+            install_count: 20,
             current_version: '1.8.1.0',
             min_android_version: 6.0
         }
