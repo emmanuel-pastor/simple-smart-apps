@@ -8,7 +8,7 @@ import RatingStarGray from "../../../assets/images/shared/rating_star-gray.svg";
 const Rating = ({rating, review_count, review_link}) => {
     const stars = []
     for (let i = 0; i < 5; i++) {
-        if (i < Math.ceil(rating).toFixed(0) - 1) {
+        if (i < Math.ceil(rating).toFixed(0) - 1 || rating-1 === i) {
             stars.push(<img key={i} src={RatingStar} alt={'Star icon'}/>)
         } else if (i === Math.ceil(rating).toFixed(0) - 1) {
             stars.push(
@@ -26,7 +26,7 @@ const Rating = ({rating, review_count, review_link}) => {
 
     return (
         <a className={style.ratingWrapper} href={review_link} target={'_blank'} rel={'noopener noreferrer'}>
-            <h2>{rating ? rating : '-'}</h2>
+            <h2>{parseFloat(rating).toFixed(1) ? rating : '-'}</h2>
             {<div className={style.ratingWrapper__stars}>{stars}</div>}
             <p>
                 <img src={PersonIcon} alt={'Person icon'}/>
