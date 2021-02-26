@@ -34,11 +34,11 @@ Keeping your battery temperature at a reasonable level expands the lifetime of y
         images: batteryTempImages,
         stats: {
             rating: 4.6,
-            review_count: 4222,
+            review_count: 4251,
             update_date: '2020-02-18',
             release_date: '2018-01-27',
             apk_size: 2.9,
-            install_count: 349209,
+            install_count: 352108,
             current_version: '1.9.0',
             min_android_version: 5.0
         }
@@ -65,11 +65,11 @@ It ensures everyone that you are safe and keeps them from being anxious."
         images: daodaImages,
         stats: {
             rating: 5,
-            review_count: 1,
+            review_count: 2,
             update_date: '2021-02-19',
             release_date: '2020-04-13',
             apk_size: 3.5,
-            install_count: 20,
+            install_count: 31,
             current_version: '1.8.1.0',
             min_android_version: 6.0
         }
