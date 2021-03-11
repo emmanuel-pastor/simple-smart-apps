@@ -3,13 +3,15 @@ import {NavigationPaths} from "../router/NavigationPaths";
 import {FormattedMessage} from "react-intl";
 import {DaodaImagesFR} from "../assets/images/fr/daoda/DaodaImagesFR";
 import {DaodaImagesEN} from "../assets/images/en/daoda/DaodaImagesEN";
+import {DaodaImagesES} from "../assets/images/es/daoda/DaodaImagesES";
 import {BatteryTempImagesEN_UK, BatteryTempImagesEN_US} from "../assets/images/en/battery-temp/BatteryTempImagesEN";
 import {BatteryTempImagesFR} from "../assets/images/fr/battery-temp/BatteryTempImagesFR";
+import {BatteryTempImagesES} from "../assets/images/es/battery-temp/BattryTempImagesES";
 
 export default function createLocalDataStore(locale: string) {
     const [lang, country] = locale.toLowerCase().split('-')
 
-    const [batteryTempImages, daodaImages] = lang === 'fr' ? [BatteryTempImagesFR, DaodaImagesFR] : [country === 'us' ? BatteryTempImagesEN_US : BatteryTempImagesEN_UK, DaodaImagesEN]
+    const [batteryTempImages, daodaImages] = lang === 'fr' ? [BatteryTempImagesFR, DaodaImagesFR] : lang === 'es' ? [BatteryTempImagesES, DaodaImagesES] : [country === 'us' ? BatteryTempImagesEN_US : BatteryTempImagesEN_UK, DaodaImagesEN]
 
 
     const batteryTemperature: AppInfo = {

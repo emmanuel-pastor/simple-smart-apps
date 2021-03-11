@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import {IntlProvider} from "react-intl";
 import English from './assets/lang/en.json';
 import French from './assets/lang/fr.json';
+import Spanish from './assets/lang/es.json';
 import firebase from "firebase/app";
 import "firebase/analytics";
 import "firebase/storage";
 
 const locale = navigator.language
-const language = locale.includes('fr') ? French : English
+const language = locale.includes('fr') ? French : locale.includes('es') ? Spanish : English
 
 const firebaseConfig = {
     apiKey: "AIzaSyD70B6WQQrsee9usXrmRGDcxbCw2QYtP5M",

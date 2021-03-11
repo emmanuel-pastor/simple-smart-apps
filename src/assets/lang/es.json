@@ -1,0 +1,21 @@
+{
+  "battery_temp": "Temperatura de la batería",
+  "daoda": "Daoda",
+  "battery_temp_description": "Vigila la temperatura de la batería.\nReciba una notificación cuando la temperatura de la batería sea demasiado caliente.\n¡La temperatura está disponible tanto en Celsius como en Fahrenheit!\nMantener la temperatura de la batería a un nivel razonable aumenta la vida de la batería.",
+  "daoda_description": "Notifique automáticamente a sus amigos y familiares que ha llegado a un destino.\nElija una lista de contactos y un mensaje, la aplicación se encarga del resto.\nAyuda a asegurarles a todos que usted está bien y evita que se preocupen.",
+  "downloads": "Descargas",
+  "no_downloads": "Sin descargas",
+  "download_count": "{count,plural,=0{Sin descargas} one{ descarga} other{ descargas}}",
+  "download_apk": "Descargar APK",
+  "play_badge_path": "https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg",
+  "review_count": "{count, plural, =0 {Sin puntuaciónes} one {# puntuación} other {# puntuaciones}}",
+  "updated": "Actualizada",
+  "size": "Tamaña",
+  "current_version": "Versión actual",
+  "requires_android": "Necessita Android",
+  "released": "Publicado",
+  "and_up": " o versión posterior",
+  "download_stat": "{count,plural,=0{Sin descargas} one{#} other{#}}",
+  "see_more": "Ver más",
+  "see_less": "Ver menos"
+}
