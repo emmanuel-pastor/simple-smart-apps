@@ -68,11 +68,11 @@ It ensures everyone that you are safe and keeps them from being anxious."
         stats: {
             rating: 5,
             review_count: 2,
-            update_date: '2021-03-08',
+            update_date: '2021-03-11',
             release_date: '2020-04-13',
             apk_size: 3.5,
             install_count: 35,
-            current_version: '1.8.2.1',
+            current_version: '1.8.2.2',
             min_android_version: 6.0
         }
     }
