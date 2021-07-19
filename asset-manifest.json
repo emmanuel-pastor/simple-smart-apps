@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6556461a.chunk.css",
-    "main.js": "/static/js/main.8da072d8.chunk.js",
-    "main.js.map": "/static/js/main.8da072d8.chunk.js.map",
+    "main.css": "/static/css/main.a77ad094.chunk.css",
+    "main.js": "/static/js/main.e12bdc7a.chunk.js",
+    "main.js.map": "/static/js/main.e12bdc7a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a46aae03.js",
     "runtime-main.js.map": "/static/js/runtime-main.a46aae03.js.map",
     "static/js/2.e0b2f91a.chunk.js": "/static/js/2.e0b2f91a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.387d77fb.chunk.js": "/static/js/3.387d77fb.chunk.js",
     "static/js/3.387d77fb.chunk.js.map": "/static/js/3.387d77fb.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6556461a.chunk.css.map": "/static/css/main.6556461a.chunk.css.map",
+    "static/css/main.a77ad094.chunk.css.map": "/static/css/main.a77ad094.chunk.css.map",
     "static/js/2.e0b2f91a.chunk.js.LICENSE.txt": "/static/js/2.e0b2f91a.chunk.js.LICENSE.txt",
     "static/media/1_screen.163a2662.png": "/static/media/1_screen.163a2662.png",
     "static/media/1_screen.a72c2f1e.png": "/static/media/1_screen.a72c2f1e.png",
@@ -24,11 +24,11 @@
     "static/media/4_screen.18725535.png": "/static/media/4_screen.18725535.png",
     "static/media/4_screen.761d4fcf.png": "/static/media/4_screen.761d4fcf.png",
     "static/media/4_screen.ebca4fd6.png": "/static/media/4_screen.ebca4fd6.png",
-    "static/media/SSA_branding.e288a555.svg": "/static/media/SSA_branding.e288a555.svg",
+    "static/media/SSA_branding.d187acb9.svg": "/static/media/SSA_branding.d187acb9.svg",
     "static/media/arrow.4136fe20.svg": "/static/media/arrow.4136fe20.svg",
-    "static/media/battery_temp_logo.2ac57518.svg": "/static/media/battery_temp_logo.2ac57518.svg",
-    "static/media/daoda_logo.b358dc4e.svg": "/static/media/daoda_logo.b358dc4e.svg",
-    "static/media/download_icon.71f4a9cc.svg": "/static/media/download_icon.71f4a9cc.svg",
+    "static/media/battery_temp_logo.3f8a8c13.svg": "/static/media/battery_temp_logo.3f8a8c13.svg",
+    "static/media/daoda_logo.67a45d9e.svg": "/static/media/daoda_logo.67a45d9e.svg",
+    "static/media/download_icon.7d142da6.svg": "/static/media/download_icon.7d142da6.svg",
     "static/media/main_screen-c.b124d179.png": "/static/media/main_screen-c.b124d179.png",
     "static/media/main_screen-f.9c8e94dc.png": "/static/media/main_screen-f.9c8e94dc.png",
     "static/media/main_screen.9b046f5a.png": "/static/media/main_screen.9b046f5a.png",
@@ -36,14 +36,14 @@
     "static/media/main_screen.c94d1e03.png": "/static/media/main_screen.c94d1e03.png",
     "static/media/main_screen.cef8de92.png": "/static/media/main_screen.cef8de92.png",
     "static/media/main_screen.e9095b8b.png": "/static/media/main_screen.e9095b8b.png",
-    "static/media/person.02aabf46.svg": "/static/media/person.02aabf46.svg",
+    "static/media/person.f2f7de8a.svg": "/static/media/person.f2f7de8a.svg",
     "static/media/rating_star-gray.ea1ac5b0.svg": "/static/media/rating_star-gray.ea1ac5b0.svg",
     "static/media/rating_star.e1777f55.svg": "/static/media/rating_star.e1777f55.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a46aae03.js",
     "static/js/2.e0b2f91a.chunk.js",
-    "static/css/main.6556461a.chunk.css",
-    "static/js/main.8da072d8.chunk.js"
+    "static/css/main.a77ad094.chunk.css",
+    "static/js/main.e12bdc7a.chunk.js"
   ]
 }
