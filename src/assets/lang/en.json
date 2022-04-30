@@ -1,6 +1,8 @@
 {
   "battery_temp": "Battery Temperature",
   "daoda": "Daoda",
+  "battery_temp_category": "Tools",
+  "daoda_category": "Tools",
   "battery_temp_description": "Keep an eye on your battery temperature.\nReceive a notification when your battery temperature is too high.\nThe temperature is available both in Celsius and Fahrenheit !\nKeeping your battery temperature at a reasonable level expands the lifetime of your battery.",
   "daoda_description": "Inform your friends and relatives when you arrived safely to a location.\nChoose a location a contacts list and a message, the app does the rest for you.\nIt ensures everyone that you are safe and keeps them from being anxious.",
   "downloads": "Downloads",

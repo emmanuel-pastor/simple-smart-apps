@@ -9,6 +9,7 @@ import useWindowDimensions from "../../util/WindowDimensionHook";
 import ScreenshotsSlider from "./screenshots-slider/ScreenshotsSlider";
 import Stats from "./stats/Stats";
 import {fromAppIdToAppName} from "../../util/Converting";
+import MetaData from "./MetaData";
 
 const AppPage = () => {
     const {pageState, appInfo} = useContext(AppPageContext);
@@ -35,6 +36,7 @@ const AppPage = () => {
                         </div>
                     </div>
                     <Stats stats={appInfo.stats}/>
+                    <MetaData appInfo={appInfo}/>
                 </div>
             )
         default:

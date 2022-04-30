@@ -1,6 +1,8 @@
 {
   "battery_temp": "Temperatura de la batería",
   "daoda": "Daoda",
+  "battery_temp_category": "Herramientas",
+  "daoda_category": "Herramientas",
   "battery_temp_description": "Vigila la temperatura de la batería.\nReciba una notificación cuando la temperatura de la batería sea demasiado caliente.\n¡La temperatura está disponible tanto en Celsius como en Fahrenheit!\nMantener la temperatura de la batería a un nivel razonable aumenta la vida de la batería.",
   "daoda_description": "Notifique automáticamente a sus amigos y familiares que ha llegado a un destino.\nElija una lista de contactos y un mensaje, la aplicación se encarga del resto.\nAyuda a asegurarles a todos que usted está bien y evita que se preocupen.",
   "downloads": "Descargas",

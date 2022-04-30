@@ -4,6 +4,7 @@ export default interface AppInfo{
     id: number
     navigation_path: string | Array<string>
     name: string | React.ReactElement,
+    category: string | React.ReactElement
     description: string | React.ReactElement,
     review_link: string,
     download_links: DownloadLinks,
