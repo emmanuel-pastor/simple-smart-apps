@@ -1,4 +1,5 @@
 .statsItem {
+    color: var(--color-main-text);
     text-align: center;
 }
 

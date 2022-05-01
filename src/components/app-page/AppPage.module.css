@@ -49,7 +49,9 @@
 
 .appPage__MiddleSection > p {
     font-size: var(--fs-medium);
+    color: var(--color-main-text);
     white-space: pre-wrap;
+
     margin-block: 0;
 }
 

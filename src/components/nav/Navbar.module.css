@@ -1,19 +1,19 @@
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    column-gap: 64px;
-    row-gap: 16px;
-
-    min-height: 80px;
+    justify-content: space-between;
     width: 100%;
+    min-height: 80px;
 
     padding: 0 var(--side-padding);
+    background: var(--color-background);
 
-    background: white;
+    box-shadow: var(--main-shadow);
 
-    filter: var(--main-shadow);
+    column-gap: 64px;
+
+    row-gap: 16px;
 }
 
 .navbar__branding {

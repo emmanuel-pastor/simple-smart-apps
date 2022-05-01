@@ -15,7 +15,7 @@ a {
 }
 
 a.active {
-    color: black;
+    color: var(--color-main-text);
 }
 
 .navbarLink__activeIndicator {

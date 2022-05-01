@@ -21,7 +21,9 @@
 .headline h1 {
     align-self: center;
     font-size: var(--fs-huge);
+    color: var(--color-main-text);
     grid-row: 2;
+
     margin-block: 0;
 }
 

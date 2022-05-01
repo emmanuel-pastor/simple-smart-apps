@@ -17,3 +17,10 @@ html, body, #root {
     max-width: 80vw;
     animation: glow_animation 2s ease-in-out infinite alternate;
 }
+
+@media (prefers-color-scheme: dark) {
+    html, body, #root {
+        color: #e4e4e4;
+        background: #202124;
+    }
+}

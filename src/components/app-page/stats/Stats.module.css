@@ -25,3 +25,9 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .stats__grid {
+        background-color: #424242;
+    }
+}

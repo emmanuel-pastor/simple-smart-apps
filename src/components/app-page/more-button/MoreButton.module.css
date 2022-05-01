@@ -3,14 +3,16 @@
     align-items: center;
     align-self: center;
     justify-content: center;
-    column-gap: 5px;
-
     padding: 0 calc(0.208vw + 14px);
-    border-radius: 100px;
 
-    border: 1px solid black;
+    border-radius: 100px;
+    border: 1px solid var(--color-main-text);
+    background: var(--color-more-button-background);
 
     cursor: pointer;
+    column-gap: 5px;
+
+    --color-more-button-background: #ffffff;
 }
 
 .seeMoreButton:hover {
@@ -18,12 +20,28 @@
 }
 
 .seeMoreButton > p {
-    margin-block: 10px;
     font-size: var(--fs-small);
     font-weight: 600;
+    color: var(--color-main-text);
+
+    margin-block: 10px;
 }
 
 .seeMoreButton > img {
     width: auto;
     height: calc(0.468vw + 16px);
+}
+
+@media (prefers-color-scheme: dark) {
+    .seeMoreButton {
+        --color-more-button-background: var(--color-background);
+    }
+
+    .seeMoreButton:hover {
+        background-color: #424242;
+    }
+
+    .seeMoreButton > img {
+        filter: invert(99%) sepia(3%) saturate(346%) hue-rotate(21deg) brightness(110%) contrast(79%);
+    }
 }
