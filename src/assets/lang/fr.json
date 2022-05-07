@@ -15,7 +15,7 @@
   "size": "Taille",
   "current_version": "Version actuelle",
   "requires_android": "Nécessite Android",
-  "released": "Sorti",
+  "released": "Sortie",
   "and_up": " ou version ultérieure",
   "download_stat": "{count,plural,=0{Aucun téléchargement} one{#} other{#}}",
   "see_more": "Voir plus",
