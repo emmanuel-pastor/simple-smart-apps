@@ -20,6 +20,7 @@ interface DownloadLinks {
 interface AppImages {
     app_icon_path: string
     main_screenshot_path: string,
+    play_button_path?: string,
     screenshot_paths: Array<string>
 }
 

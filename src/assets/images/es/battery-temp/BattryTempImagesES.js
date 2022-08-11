@@ -1,9 +1,11 @@
 import Icon from "../../shared/battery_temp_logo.svg";
 import MainScreen from "./main_screen.png";
+import PlayBadge from "../../shared/google_play_badge.svg";
 
 export const BatteryTempImagesES = {
     app_icon_path: Icon,
     main_screenshot_path: MainScreen,
+    play_button_path: PlayBadge,
     screenshot_paths: [
         "https://play-lh.googleusercontent.com/Dhcf8PKDSLBZ-Scp_S6updX60vKG2PkzesmZwiADZgxvxKfLgMvLE02EbamogKy1-g=w1536-h722",
         "https://play-lh.googleusercontent.com/hFocA7_Y36nLPSl576VaHwhQc-Cnnl9G7NZcnooDKQvMZrglOnTcNS8VLDdjuivxj3qw=w1536-h722",

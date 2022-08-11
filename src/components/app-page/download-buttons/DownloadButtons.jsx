@@ -6,9 +6,9 @@ import {FormattedMessage, useIntl} from "react-intl";
 import {useState} from "react";
 import {firebaseAnalytics, firebaseStorage} from "../../../index";
 import {toSnakeCase} from "../../../util/Formating";
+import play_badge from "../../../assets/images/shared/google_play_badge.svg";
 
-const DownloadButtons = ({app_name, playLink, apkLink}) => {
-    const intl = useIntl();
+const DownloadButtons = ({appName, playLink, apkLink, playBadgePath}) => {
     const [downloadUrl, setDownloadUrl] = useState("#")
 
     let apkRef = firebaseStorage.ref().child(apkLink)
@@ -23,7 +23,7 @@ const DownloadButtons = ({app_name, playLink, apkLink}) => {
     }
 
     const logDownloadEvent = () => {
-        firebaseAnalytics.logEvent(`${toSnakeCase(app_name)}_apk_download`)
+        firebaseAnalytics.logEvent(`${toSnakeCase(appName)}_apk_download`)
     }
 
     //Retrieve APK download link form Firestore
@@ -32,12 +32,7 @@ const DownloadButtons = ({app_name, playLink, apkLink}) => {
     return (
         <div className={style.downloadButtons__wrapper}>
             {playLink && <a href={playLink} className={style.downloadButtons__button_play} target={'_blank'} rel={'noopener noreferrer'}>
-                <img alt='Get it on Google Play' src={intl.formatMessage(
-                    {
-                        id: 'play_badge_path',
-                        defaultMessage: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg',
-                    }
-                )}/>
+                <img alt='Get it on Google Play' src={playBadgePath ?? play_badge}/>
             </a>}
             <a href={downloadUrl} datatype={"application/octet-stream"} className={style.downloadButtons__button_apk} onClick={logDownloadEvent}>
                 <img src={DownloadIcon} alt={"Download icon"}/>
@@ -51,9 +46,10 @@ const DownloadButtons = ({app_name, playLink, apkLink}) => {
 }
 
 NavbarLink.propTypes = {
-    app_name: PropTypes.string.isRequired,
+    appName: PropTypes.string.isRequired,
     playLink: PropTypes.string,
-    apkLink: PropTypes.string.isRequired
+    apkLink: PropTypes.string.isRequired,
+    playBadgePath: PropTypes.string
 }
 
 export default DownloadButtons;

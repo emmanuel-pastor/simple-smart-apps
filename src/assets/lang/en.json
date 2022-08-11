@@ -9,7 +9,6 @@
   "no_downloads": "No downloads",
   "download_count": "{count,plural,=0{No downloads} one{ download} other{ downloads}}",
   "download_apk": "Download APK",
-  "play_badge_path": "https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg",
   "review_count": "{count, plural, =0 {No reviews} one {# review} other {# reviews}}",
   "updated": "Updated",
   "size": "Size",
