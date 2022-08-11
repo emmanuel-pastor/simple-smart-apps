@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fd10f9a.css",
-    "main.js": "/static/js/main.96fad7c1.js",
+    "main.css": "/static/css/main.3fbf1bb1.css",
+    "main.js": "/static/js/main.0df5722e.js",
     "static/js/377.608ef5af.chunk.js": "/static/js/377.608ef5af.chunk.js",
     "static/media/main_screen.png": "/static/media/main_screen.a677b637a66b232f5420.png",
     "static/media/main_screen-c.png": "/static/media/main_screen-c.b124d179c78e6d1cfb63.png",
@@ -10,21 +10,22 @@
     "static/media/4_screen.png": "/static/media/4_screen.ebca4fd6a9edfe99e090.png",
     "static/media/1_screen.png": "/static/media/1_screen.b8e1f23ccd0f45c5f854.png",
     "static/media/2_screen.png": "/static/media/2_screen.6c2388cbab0128ffb706.png",
-    "static/media/SSA_branding.svg": "/static/media/SSA_branding.e288a5555d161c13a5e21c2517ec1175.svg",
-    "static/media/daoda_logo.svg": "/static/media/daoda_logo.b358dc4e8de192e885e97fb3e74f4621.svg",
-    "static/media/battery_temp_logo.svg": "/static/media/battery_temp_logo.2ac57518acea7b0d5820eac882eba0e5.svg",
+    "static/media/SSA_branding.svg": "/static/media/SSA_branding.d187acb9df8fd9f4c6edf26bdeeb87b1.svg",
+    "static/media/google_play_badge.svg": "/static/media/google_play_badge.993ee2a03d4a1cc9698c869a4bfcf2a6.svg",
+    "static/media/daoda_logo.svg": "/static/media/daoda_logo.67a45d9e5ad6789fb0fd445c4ce31be5.svg",
+    "static/media/battery_temp_logo.svg": "/static/media/battery_temp_logo.3f8a8c138390d31ad0448839095b1895.svg",
     "index.html": "/index.html",
-    "static/media/person.svg": "/static/media/person.02aabf4690c54a9166072871de0b5010.svg",
-    "static/media/download_icon.svg": "/static/media/download_icon.71f4a9cc5f568eba03f5a97297f657e1.svg",
+    "static/media/person.svg": "/static/media/person.f2f7de8a4e4267bc4442c29ea3774733.svg",
+    "static/media/download_icon.svg": "/static/media/download_icon.7d142da6690df4e1a2f7f2fb570994fb.svg",
     "static/media/arrow.svg": "/static/media/arrow.4136fe20753416cf3ca75310c4ba00f2.svg",
     "static/media/rating_star-gray.svg": "/static/media/rating_star-gray.ea1ac5b0d0b30413ad0ffabfbb5f8d2c.svg",
     "static/media/rating_star.svg": "/static/media/rating_star.e1777f55cbe75155f02f62239ea420a9.svg",
-    "main.9fd10f9a.css.map": "/static/css/main.9fd10f9a.css.map",
-    "main.96fad7c1.js.map": "/static/js/main.96fad7c1.js.map",
+    "main.3fbf1bb1.css.map": "/static/css/main.3fbf1bb1.css.map",
+    "main.0df5722e.js.map": "/static/js/main.0df5722e.js.map",
     "377.608ef5af.chunk.js.map": "/static/js/377.608ef5af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd10f9a.css",
-    "static/js/main.96fad7c1.js"
+    "static/css/main.3fbf1bb1.css",
+    "static/js/main.0df5722e.js"
   ]
 }
