@@ -33,12 +33,12 @@ export default function createLocalDataStore(locale: string, intl: IntlShape) {
         images: batteryTempImages,
         stats: {
             rating: 4.6,
-            review_count: 7963,
-            update_date: '2022-08-20',
+            review_count: 8122,
+            update_date: '2022-09-22',
             release_date: '2018-01-27',
             apk_size: 3.78,
-            install_count: 707777,
-            current_version: '1.9.5',
+            install_count: 723895,
+            current_version: '1.9.6',
             min_android_version: 5.0
         }
     }
@@ -66,7 +66,7 @@ export default function createLocalDataStore(locale: string, intl: IntlShape) {
             update_date: '2021-03-11',
             release_date: '2020-04-13',
             apk_size: 3.5,
-            install_count: 35,
+            install_count: 36,
             current_version: '1.8.2.2',
             min_android_version: 6.0
         }
