@@ -1,7 +1,7 @@
 import Icon from "../../shared/battery_temp_logo.svg";
 import MainScreenC from "./main_screen-c.png";
 import MainScreenF from "./main_screen-f.png";
-import PlayBadge from "../../shared/google_play_badge.svg";
+import PlayBadge from "../google_play_badge.svg";
 
 export const BatteryTempImagesEN_US = {
     app_icon_path: Icon,

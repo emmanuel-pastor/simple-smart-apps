@@ -2,11 +2,11 @@ import style from './DownloadButtons.module.css';
 import NavbarLink from "../../nav/NavbarLink";
 import PropTypes from "prop-types";
 import DownloadIcon from "../../../assets/images/shared/download_icon.svg";
-import {FormattedMessage, useIntl} from "react-intl";
+import {FormattedMessage} from "react-intl";
 import {useState} from "react";
 import {firebaseAnalytics, firebaseStorage} from "../../../index";
 import {toSnakeCase} from "../../../util/Formating";
-import play_badge from "../../../assets/images/shared/google_play_badge.svg";
+import play_badge from "../../../assets/images/en/google_play_badge.svg";
 
 const DownloadButtons = ({appName, playLink, apkLink, playBadgePath}) => {
     const [downloadUrl, setDownloadUrl] = useState("#")
@@ -17,7 +17,7 @@ const DownloadButtons = ({appName, playLink, apkLink, playBadgePath}) => {
             .then(url => {
                 setDownloadUrl(url)
             })
-            .catch((error) => {
+            .catch((_) => {
                 //Handle error
             });
     }
