@@ -37,7 +37,7 @@ export default function createLocalDataStore(locale: string, intl: IntlShape) {
             update_date: '2022-09-22',
             release_date: '2018-01-27',
             apk_size: 3.78,
-            install_count: 736755,
+            install_count: 736756,
             current_version: '1.9.6',
             min_android_version: 5.0
         }
