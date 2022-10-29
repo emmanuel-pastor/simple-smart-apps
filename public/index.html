@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/SSA-logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#5990FF" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/SSA-logo.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#5990FF"/>
+    <meta
+            name="title"
+            content="High quality software made simple"
+    />
     <meta
       name="description"
       content="Simple Smart Apps official website"
     />
-    <meta content="SSA_branding.svg" property="og:image" />
-    <link href="https://www.simple-smart-apps.com" hreflang="x-default" rel="alternate" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta content="SSA_branding.svg" property="og:image"/>
+    <meta property="og:url" content="https://simple-smart-apps.com">
+    <meta property="og:site_name" content="Simple Smart Apps">
+    <meta property="og:title" content="High quality software made simple">
+    <meta property="og:description" content="Simple Smart Apps official website">
+    <meta property="og:image" content="%PUBLIC_URL%/SSA-logo-512.svg">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+
+    <link href="https://www.simple-smart-apps.com" hreflang="x-default" rel="alternate"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/SSA-logo-192.png"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <link href="%PUBLIC_URL%/style.css" rel="stylesheet"/>
     <title>Simple Smart Apps</title>
 
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-                  l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
+        // Single Page Apps for GitHub Pages
+        // MIT License
+        // https://github.com/rafgraph/spa-github-pages
+        // This script checks to see if a redirect is present in the query string,
+        // converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        (function (l) {
+            if (l.search[1] === '/') {
+                var decoded = l.search.slice(1).split('&').map(function (s) {
+                    return s.replace(/~and~/g, '&')
+                }).join('?');
+                window.history.replaceState(null, null,
+                    l.pathname.slice(0, -1) + decoded + l.hash
+                );
+            }
+        }(window.location))
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <div id="loading_logo_wrapper">
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root">
+    <div id="loading_logo_wrapper">
         <img alt="Simple Smart Apps logo" src="%PUBLIC_URL%/SSA_branding.svg"/>
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
