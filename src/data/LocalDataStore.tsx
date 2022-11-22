@@ -32,12 +32,12 @@ export default function createLocalDataStore(locale: string, intl: IntlShape) {
         },
         images: batteryTempImages,
         stats: {
-            rating: 4.8,
-            review_count: 8286,
+            rating: 4.6,
+            review_count: 8388,
             update_date: '2022-10-29',
             release_date: '2018-01-27',
             apk_size: 3.78,
-            install_count: 740976,
+            install_count: 751183,
             current_version: '1.9.7',
             min_android_version: 5.0
         }
