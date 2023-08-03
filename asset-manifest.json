@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.58eabb89.css",
-    "main.js": "/static/js/main.80c64b32.js",
+    "main.js": "/static/js/main.1fcfe9b2.js",
     "static/js/922.d0ce889e.chunk.js": "/static/js/922.d0ce889e.chunk.js",
-    "static/media/main_screen.png": "/static/media/main_screen.a677b637a66b232f5420.png",
-    "static/media/main_screen-c.png": "/static/media/main_screen-c.b124d179c78e6d1cfb63.png",
-    "static/media/main_screen-f.png": "/static/media/main_screen-f.9c8e94dc062522ce38c3.png",
-    "static/media/3_screen.png": "/static/media/3_screen.23456b734fb80677634c.png",
-    "static/media/4_screen.png": "/static/media/4_screen.ebca4fd6a9edfe99e090.png",
-    "static/media/1_screen.png": "/static/media/1_screen.b8e1f23ccd0f45c5f854.png",
-    "static/media/2_screen.png": "/static/media/2_screen.6c2388cbab0128ffb706.png",
     "static/media/SSA_branding.svg": "/static/media/SSA_branding.d187acb9df8fd9f4c6edf26bdeeb87b1.svg",
+    "static/media/main_screen.webp": "/static/media/main_screen.f88d4b05fe76a72a6f74.webp",
+    "static/media/main_screen-c.webp": "/static/media/main_screen-c.64df4797b26bc30ae536.webp",
+    "static/media/main_screen-f.webp": "/static/media/main_screen-f.971851ef2fda2921e9b0.webp",
+    "static/media/1_screen.webp": "/static/media/1_screen.8daef3b7cfa29f6c56e9.webp",
     "static/media/google_play_badge.svg": "/static/media/google_play_badge.993ee2a03d4a1cc9698c869a4bfcf2a6.svg",
+    "static/media/3_screen.webp": "/static/media/3_screen.48d4e1029829dac8793e.webp",
+    "static/media/2_screen.webp": "/static/media/2_screen.c8becc1b72b31d8d3819.webp",
+    "static/media/4_screen.webp": "/static/media/4_screen.2efa1b50fbb6b4075f86.webp",
     "static/media/daoda_logo.svg": "/static/media/daoda_logo.67a45d9e5ad6789fb0fd445c4ce31be5.svg",
     "static/media/battery_temp_logo.svg": "/static/media/battery_temp_logo.3f8a8c138390d31ad0448839095b1895.svg",
     "index.html": "/index.html",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.58eabb89.css",
-    "static/js/main.80c64b32.js"
+    "static/js/main.1fcfe9b2.js"
   ]
 }
